@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); 
+body {
+background-image: url(./Images/Background.png);
+background-attachment:fixed;
+background-size: cover;
+}
+.logo{
+    float: left;
+}
+.nav_links{
+    display: flex;
+    justify-content: flex-start;
+  
+}
+.nav_links li{
+    display: inline;   
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+    
+}
+.nav_links li a{
+    text-decoration: none;
+}
+
+li,
+a,div{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+#link1{
+  color: #FF0000;
+  padding: 10px;
+  font-weight:bold;
+}
+.nav_links li a:hover {
+    color: #FF0000;
+    background-color: grey;
+    padding: 10px;
+    font-weight:bold;
+    opacity: 0.7;
+  } 
+.logo {
+    cursor: pointer;
+  }
+  nav_links li a:hover {
+    color: #FF0000;
+    background-color: grey;
+    padding: 10px;
+    font-weight:bold;
+    opacity: 0.7;
+  } 
+.logo {
+    cursor: pointer;
+  }
+  #main{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 60%;
+
+  }
+  #main p{
+    font-size: 1.6vw;
+    text-align: justify;
+    width: 150%;
+    font-weight: bold;
+  }
+  .head{
+    text-decoration: underline;
+  }
+  .head:hover{
+    text-decoration: underline red;
+    transition: all 0.5s ease-in-out;
+  }
+
+ 
+  
+  div.grid{
+    width: 120%;
+    margin-left: -7%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 5%;
+
+  }
+  div.left i,div.right i{
+    font-size: 2vw;
+    margin-right: 5%;
+  }
+  div.grid div {
+    width: 100%;
+  }
+  div.grid span{
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+  section.body{
+    border: 5px solid brown;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color:#cbdfd8a9 ;
+  }
+  
+  #main h1{
+    font-size: 3vw;
+  }
+  .grid h3{
+    font-size: 1.5vw;
+  }
+
+  /* .logo{
+    width: 10%;
+  } */
+  /* .nav_links li a{
+    font-size: 2vw;
+  } */
